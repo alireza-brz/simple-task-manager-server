@@ -9,6 +9,7 @@ async function bootstrap() {
     .setTitle('task manager')
     .setDescription('Swagger simple task manager')
     .setVersion('1.0')
+    .addBearerAuth()
     .addTag('task-manager')
     .build();
 
